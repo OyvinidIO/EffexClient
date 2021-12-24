@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>pics/open.png</file>
+        <file>pics/debug_icon.ico</file>
+        <file>pics/release_icon.ico</file>
+        <file>pics/save.png</file>
+        <file>pics/save-as.png</file>
+        <file>pics/grid-view.png</file>
+        <file>EffexToolbarButton.qml</file>
+        <file>EffexToolbar.qml</file>
+        <file>pics/clear-symbol.png</file>
+        <file>EffexEffectGrid.qml</file>
+        <file>EffexEffectMainView.qml</file>
+        <file>EffexEffectGridOverview.qml</file>
+        <file>effects/Delay.qml</file>
+        <file>effects/EffectsFrame.qml</file>
+        <file>effects/EffectsKnob.qml</file>
+        <file>effects/EffectsHeader.qml</file>
+        <file>effects/EffectsActivate.qml</file>
+        <file>effects/Distortion.qml</file>
+        <file>main.cpp</file>
+        <file>equalizer/Equalizer.qml</file>
+        <file>effects/EffectsVolume.qml</file>
+        <file>equalizer/EqualizerGainControl.qml</file>
+        <file>equalizer/EqualizerReset.qml</file>
+        <file>effex_enums_JS.js</file>
+    </qresource>
+</RCC>
