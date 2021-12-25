@@ -244,3 +244,6 @@ ModelManifest.xml
 *.filters
 *.vcxproj
 debug/qrc_qml.cpp
+debug/qrc_qml.cpp
+*.rc
+release/qrc_qml.cpp

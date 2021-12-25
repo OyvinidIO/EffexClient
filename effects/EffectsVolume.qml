@@ -10,7 +10,7 @@ Rectangle{
 
     property string effectName : EffexEnumsJS.strVolumeEffectName
     property string knobName: EffexEnumsJS.strMasterVolume
-    property string textActivated :"Mute"
+    property string textActivated :"Active"
     property string textNotActivated: "Muted"
 
     property bool muted: false

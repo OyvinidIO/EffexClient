@@ -2,6 +2,7 @@ import QtQuick 2.0
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
 import "effects/"
+import "effex_enums_JS.js" as EffexEnumsJS
 
 Rectangle{
     id: effectsOmittingRectangle
@@ -31,6 +32,14 @@ Rectangle{
         EffectsVolume{
             Layout.preferredHeight: effectFrameHeight
             Layout.preferredWidth:  effectFrameWidth/3
+            onEmitKnobValueFromVolumeControl: {
+                emitKnobChangesForAnEffect(effectName, knobName, knobValue)
+            }
+          }
+        EffectsVolume{
+            Layout.preferredHeight: effectFrameHeight
+            Layout.preferredWidth:  effectFrameWidth/3
+            effectName: EffexEnumsJS.strInputVolumeEffectName
             onEmitKnobValueFromVolumeControl: {
                 emitKnobChangesForAnEffect(effectName, knobName, knobValue)
             }

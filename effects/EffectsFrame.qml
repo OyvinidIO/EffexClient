@@ -69,8 +69,8 @@ Rectangle {
         EffectsActivate{
             id: effectActivate
             Layout.preferredHeight: childObjectSpacing*2/10
-            textWhenActivated : "Bypass"
-            textWhenNotActivated: "Activate"
+            textWhenActivated : "Active"
+            textWhenNotActivated: "Bypassed"
             onEmitActivatedStatus: {
                 emitKnobValueFromEffectFrame(EffexEnumsJS.strActivateEffect, activateEffect)
             }
